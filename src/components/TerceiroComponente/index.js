@@ -18,8 +18,8 @@ const TerceiroComponente = () => {
 
     return (
         <div>
-            <input onChange={e => setNumero1(e.target.value)} />
-            <input onChange={e => setNumero2(e.target.value)} />
+            <input className="box-1" type="number" onChange={e => setNumero1(e.target.value)} />
+            <input className="box-1" type="number" onChange={e => setNumero2(e.target.value)} />
             <button onClick={gerarResultado}>Somar</button>
 
         </div>
